@@ -1,0 +1,29 @@
+{
+    "name": "netdudes/beautytipsbundle",
+    "type": "symfony-bundle",
+    "description": "Symfony BeautyTipsBundle",
+    "keywords": ["Symfony", "tooltip", "beautytips", "jquery"],
+    "homepage": "https://github.com/netdudes/BeautyTipsBundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Netdudes GmbH",
+            "homepage": "https://github.com/netdudes/BeautyTipsBundle/contributors"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2",
+        "symfony/symfony": ">=2.1,<2.3-dev"
+    },
+    "autoload":{
+        "psr-0":{
+            "Netdudes\\Bundle\\BeautyTipsBundle": ""
+        }
+    },
+    "target-dir": "Netdudes/Bundle/BeautyTipsBundle",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
